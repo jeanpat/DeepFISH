@@ -50,3 +50,4 @@ The latter deep-learning framework is supposed to be more efficient than the seg
 
    * **LowRes_13434_overlapping_pairs.h5** : 13434 pairs of overlapping chromosomes generated from the two previous images. This dataset is intended to train a supervised learning algorithm to resolve overlapping chromosomes. The dataset is stored as a numpy array and saved in a hdf5 file. Compared to the DAPI and Cy3 images,the resolution was decreased by two.
    * **overlapping_chromosomes_examples.h5**: smaller dataset (~2000 images). The resolution of the images is the same than the DAPI/Cy3 images.
+   * **UltraSmall-COCO-Dataset_125_images-json.zip** a very small dataset with 125 images of overlapping chromosomes and their annotation file in COCO format generated online with makesense.ai
